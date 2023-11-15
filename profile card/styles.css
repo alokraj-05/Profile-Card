@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+}
+html{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxcard{
+    background: linear-gradient(rgb(200, 161, 161),rgb(23, 23, 27));
+    width: 30rem;
+    height: 40rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.logo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 9.5rem;
+    overflow: hidden;
+    border: 2.5px solid aliceblue;
+}
+.name{
+    color: #fff;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 11rem;
+    font-family: 'Agdasima',calibri  ;
+}
+.name p{
+    font-size: 1.5rem;
+    display: inline;
+    color: rgb(218, 218, 218);
+    margin-left: -3.5rem;
+    margin-top: -1rem;
+}
+
+.icons{
+    /* height: 100%; */
+    display: flex;
+    /* justify-content: center; */ 
+    /* bottom: 10rem; */
+    position: absolute;
+    gap: 20px;
+    bottom: 50%;
+    left: 44%;
+
+}
+.msg{
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    position: absolute;
+    border-radius: 2rem;
+    top: 55%;
+    left: 46%;
+
+}
+/* .msg:hover{
+    transform:rotateX('0');
+    transform:rotateY('0');
+    transform:rotateZ('3');
+} */
+.msg a{
+    top: 15px;
+    color: #000;
+    font-family:calibri ;
+}
+.reach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 4rem;
+    top: 35rem;
+    left: 43%;
+    
+}
