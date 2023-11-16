@@ -1,6 +1,7 @@
 # Overview
 This is a HTML &amp; CSS project which can create a profile card for you.
-<img width="486" alt="Screenshot 2023-11-14 231537" src="https://github.com/alokraj-05/Profile-Card/assets/121685233/de8d4a64-42fc-477f-9cb2-39f8937bb279">
+
+ <img width="486" alt="Screenshot 2023-11-14 231537" src="https://github.com/alokraj-05/Profile-Card/assets/121685233/de8d4a64-42fc-477f-9cb2-39f8937bb279">
 
 # How to Use
 - After cloning
