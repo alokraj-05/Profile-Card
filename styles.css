@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxcard {
+    background: linear-gradient(rgb(200, 161, 161), rgb(23, 23, 27));
+    /* width: 30rem; */
+    /* height: 40rem; */
+    border-radius: 3rem;
+    padding: 3rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 2.5px solid aliceblue;
+    /* background-image: url(pfp.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.name {
+    color: #fff;
+    text-align: center;
+    font-family: 'Agdasima', calibri;
+}
+
+.name h2 {
+    padding-top: 1rem;
+}
+
+.name p {
+    font-size: 1.5rem;
+    color: rgb(218, 218, 218);
+}
+
+.icons {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.msg {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.msg a {
+    padding: .5rem 2rem;
+    background-color: antiquewhite;
+    color: #000;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: 3.5px solid white;
+    font-family: calibri;
+}
+
+.reach {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
